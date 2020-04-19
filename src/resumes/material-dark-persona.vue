@@ -144,7 +144,7 @@
     <div class="section-headline">{{ lang.usage }}</div>
     <div class="block">
       <div class="block-helper"></div>
-      <div class="headline">👍 Gründe, das Angebot zu nutzen</div>
+      <div class="headline">Gründe, das Angebot zu nutzen</div>
       <p class="info">
           <ul>
             <li class="list" v-for="reason in person.reasonsFor">{{reason}}</li>
@@ -153,7 +153,7 @@
     </div>
     <div class="block">
       <div class="block-helper"></div>
-      <div class="headline">👎 Gründe, das Angebot nicht zu nutzen</div>
+      <div class="headline">Gründe, das Angebot nicht zu nutzen</div>
       <p class="info">
           <ul>
             <li class="list" v-for="reason in person.reasonsAgainst">{{reason}}</li>
