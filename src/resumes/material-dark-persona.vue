@@ -35,7 +35,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.audience.city}}</li>
+          <li>{{person.contact.city}}</li>
         </ul>
       </div>
     </div>
