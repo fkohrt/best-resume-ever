@@ -11,7 +11,6 @@ const lang = {
     about: 'Über mich',
     years: 'Jahre',
     opinions: 'Meinungen',
-    projects: 'Projekte',
     usage: 'Nutzung'
 };
 export default lang;
