@@ -10,7 +10,8 @@ const lang = {
     contributions: 'Contributions',
     about: 'About me',
     years: 'Years',
-    opinions: 'Opinion',
-    usage: 'Usage'
+    opinions: 'Things I (don’t) enjoy',
+    usage: 'Usage',
+    basics: 'Basics'
 };
 export default lang;

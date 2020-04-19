@@ -5,7 +5,7 @@
     <div class="heading" id="myselfpic">
     </div>
     <div class="section-headline">
-      {{ lang.contact }}
+      {{ lang.basics }}
     </div>
     <div v-if="person.birth" class="item">
       <div class="icon">
@@ -13,7 +13,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.age}} {{ lang.years }}</li>
+          <li>{{person.basics.age}} {{ lang.years }}</li>
         </ul>
       </div>
     </div>
@@ -24,7 +24,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.occupation}}</li>
+          <li>{{person.basics.occupation}}</li>
         </ul>
       </div>
     </div>
@@ -35,14 +35,14 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.contact.city}}</li>
+          <li>{{person.basics.city}}</li>
         </ul>
       </div>
     </div>
 
     <div class="item">
       <div class="icon">
-        <i class="material-icons">house</i>
+        <i class="material-icons">home</i>
       </div>
       <div class="text">
         <ul>
@@ -86,7 +86,7 @@
 
     <div class="item">
       <div class="icon">
-        <i class="material-icons">accessible_forward</i>
+        <i class="material-icons">accessible</i>
       </div>
       <div class="text">
         <ul>
@@ -122,8 +122,8 @@
     <div class="block" v-for="opinion in person.opinions" :key="opinion.name">
       <div class="block-helper"></div>
       <h3 class="headline">{{opinion.name}}</h3>
-        <div class="subheadline">{{opinion.time}}</div>
-        <p class="info">
+        <div class="subheadline" v-if="opinion.time">{{opinion.time}}</div>
+        <p class="info" v-if="opinion.description">
           {{opinion.description}}
         </p>
     </div>
@@ -131,29 +131,29 @@
     <div class="block" v-for="project in person.projects" :key="project.name">
       <div class="block-helper"></div>
       <h3 class="headline">{{project.name}}</h3>
-        <div class="subheadline">{{project.time}}</div>
-        <p class="info">
+        <div class="subheadline" v-if="project.time">{{project.time}}</div>
+        <p class="info" v-if="project.description">
           {{project.description}}
         </p>
     </div>
     <div class="section-headline">{{ lang.usage }}</div>
     <div class="block">
       <div class="block-helper"></div>
-      <h3 class="headline">Gründe, das Angebot zu nutzen</h3>
-        <p class="info">
+      <div class="headline">Gründe, das Angebot zu nutzen</div>
+      <p class="info">
           <ul>
-            <li v-for="reason in person.reasonsFor">{{reason}}</li>
+            <li class="list" v-for="reason in person.reasonsFor">{{reason}}</li>
           </ul>
-        </p>
+      </p>
     </div>
     <div class="block">
       <div class="block-helper"></div>
-      <h3 class="headline">Gründe, das Angebot nicht zu nutzen</h3>
-        <p class="info">
+      <div class="headline">Gründe, das Angebot nicht zu nutzen</div>
+      <p class="info">
           <ul>
-            <li v-for="reason in person.reasonsAgainst">{{reason}}</li>
+            <li class="list" v-for="reason in person.reasonsAgainst">{{reason}}</li>
           </ul>
-        </p>
+      </p>
     </div>
   </div>
 
@@ -253,6 +253,9 @@ ul {
   margin:0;
   padding:0;
   list-style-type:none;
+}
+.list : {
+  list-style-type: disk;
 }
 p {
   margin-top:0;

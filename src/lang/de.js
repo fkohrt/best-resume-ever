@@ -1,16 +1,17 @@
-// Dutch
+// German
 const lang = {
     contact: 'Kontakt',
     born: 'Geboren',
     bornIn: 'in',
     experience: 'Berufserfahrung',
     education: 'Schulbildung',
-    skills: 'Qualifikationen',
+    skills: 'Fähigkeiten',
     projects: 'Projekte',
     contributions: 'Mitarbeit',
     about: 'Über mich',
     years: 'Jahre',
-    opinions: 'Meinungen',
-    usage: 'Nutzung'
+    opinions: 'Dinge, die mir (nicht) gefallen',
+    usage: 'Nutzung',
+    basics: 'Grundlegendes'
 };
 export default lang;
