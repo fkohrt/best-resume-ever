@@ -13,7 +13,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.basics.age}} {{ lang.years }}</li>
+          <li>{{person.audience.age}} {{ lang.years }}</li>
         </ul>
       </div>
     </div>
@@ -24,7 +24,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.basics.occupation}}</li>
+          <li>{{person.audience.occupation}}</li>
         </ul>
       </div>
     </div>
@@ -35,7 +35,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.basics.city}}</li>
+          <li>{{person.audience.city}}</li>
         </ul>
       </div>
     </div>
@@ -46,7 +46,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.basics.formOfHousing}}</li>
+          <li>{{person.audience.formOfHousing}}</li>
         </ul>
       </div>
     </div>
@@ -57,7 +57,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.basics.phone}}</li>
+          <li>{{person.audience.phone}}</li>
         </ul>
       </div>
     </div>
@@ -68,7 +68,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.basics.computer}}</li>
+          <li>{{person.audience.computer}}</li>
         </ul>
       </div>
     </div>
@@ -79,7 +79,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.basics.otherDevices}}</li>
+          <li>{{person.audience.otherDevices}}</li>
         </ul>
       </div>
     </div>
@@ -90,7 +90,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.basics.restrictions}}</li>
+          <li>{{person.audience.restrictions}}</li>
         </ul>
       </div>
     </div>

@@ -12,6 +12,7 @@ const lang = {
     years: 'Years',
     opinions: 'Things I (don’t) enjoy',
     usage: 'Usage',
-    basics: 'Basics'
+    basics: 'Basics',
+    proficiencies: 'Proficiencies'
 };
 export default lang;

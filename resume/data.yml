@@ -5,6 +5,18 @@ name:
   last:
 position: XR-Aktivistin
 
+contact:
+  city: Köln
+
+audience:
+  age: 21
+  occupation: Studentin
+  formOfHousing: WG
+  phone: High-End (Android)
+  computer: Desktop (Windows)
+  otherDevices: iPad
+  restrictions: Legasthenie
+
 opinions:
 - name: ❤️ Judo
   time: seit zwei Jahren
@@ -30,16 +42,6 @@ skills:
   level: 30
 - name: Judo
   level: 70
-
-basics:
-  age: 21
-  occupation: Studentin
-  city: Köln
-  formOfHousing: WG
-  phone: High-End (Android)
-  computer: Desktop (Windows)
-  otherDevices: iPad
-  restrictions: Legasthenie
 
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: de

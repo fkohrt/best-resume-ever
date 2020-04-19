@@ -5,13 +5,14 @@ const lang = {
     bornIn: 'in',
     experience: 'Berufserfahrung',
     education: 'Schulbildung',
-    skills: 'Fähigkeiten',
+    skills: 'Qualifikationen',
     projects: 'Projekte',
     contributions: 'Mitarbeit',
     about: 'Über mich',
     years: 'Jahre',
     opinions: 'Dinge, die mir (nicht) gefallen',
     usage: 'Nutzung',
-    basics: 'Grundlegendes'
+    basics: 'Grundlegendes',
+    proficiencies: 'Fähigkeiten'
 };
 export default lang;
