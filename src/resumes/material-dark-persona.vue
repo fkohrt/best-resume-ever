@@ -97,7 +97,7 @@
 
     <div class="item last">
       <div class="section-headline">
-        {{ lang.skills }}
+        {{ lang.proficiencies }}
       </div>
       <div class="skill" v-for="skill in person.skills" :key="skill.name">
         <div class="right">
