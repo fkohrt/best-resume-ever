@@ -7,7 +7,7 @@
     <div class="section-headline">
       {{ lang.basics }}
     </div>
-    <div v-if="person.birth" class="item">
+    <div class="item">
       <div class="icon">
         <i class="material-icons">hourglass_full</i>
       </div>
@@ -46,7 +46,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.formOfHousing}}</li>
+          <li>{{person.basics.formOfHousing}}</li>
         </ul>
       </div>
     </div>
@@ -57,7 +57,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.phone}}</li>
+          <li>{{person.basics.phone}}</li>
         </ul>
       </div>
     </div>
@@ -68,7 +68,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.computer}}</li>
+          <li>{{person.basics.computer}}</li>
         </ul>
       </div>
     </div>
@@ -79,7 +79,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.otherDevices}}</li>
+          <li>{{person.basics.otherDevices}}</li>
         </ul>
       </div>
     </div>
@@ -90,7 +90,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.restrictions}}</li>
+          <li>{{person.basics.restrictions}}</li>
         </ul>
       </div>
     </div>
