@@ -1,6 +1,6 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Julia
   middle:
   last: Doe
 about: Hi, my name is John Doe. I"m just about the most boring type of person you could
@@ -11,6 +11,40 @@ position: Software Developer
 birth:
   year: 1990
   location: New York
+
+opinions:
+- name: ❤️ Judo
+  time: seit zwei Jahren
+  description: Julia ist Judo-Trainerin im örtlichen Sportverein
+- name: ☠ Auf Dinge warten
+  time: alles, was länger als 10 min dauert
+  description:
+
+projects:
+- name: Lernt Spanisch
+  time: seit drei Monaten
+  description:
+
+reasonsFor:
+- bekommt die Infos nirgends anders
+
+reasonsAgainst:
+- muss innherhalb von 10 min überzeugt werden
+
+interests:
+- name: Umweltschutz
+  time: seit zwei Jahren
+  description: 
+
+activities:
+- headline: Judo
+  subheadline:
+  description: Macht gerne Sport
+
+usage:
+- headline: 3 Gründe, warum sie unser Angebot nutzen will
+  subheadline:
+  description: A, B, C
 
 experience:
 - company: Company A
@@ -80,6 +114,14 @@ contributions:
   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
   url: https://github.com/salomonelli/best-resume-ever
 
+age: 21
+occupation: Studentin
+formOfHousing: WG
+phone: High-End (Android)
+computer: Desktop (Windows)
+otherDevices: iPad
+restrictions: Legasthenie
+
 contact:
   email: john.doe@email.com
   phone: 0123 456789
@@ -88,5 +130,5 @@ contact:
   website: johndoe.com
   github: johnyD
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: de
 `

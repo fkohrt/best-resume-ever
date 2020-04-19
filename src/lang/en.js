@@ -8,6 +8,10 @@ const lang = {
     skills: 'Skills',
     projects: 'Projects',
     contributions: 'Contributions',
-    about: 'About me'
+    about: 'About me',
+    years: 'Years',
+    opinions: 'Opinion',
+    projects: 'Projects',
+    usage: 'Usage'
 };
 export default lang;

@@ -8,6 +8,10 @@ const lang = {
     skills: 'Qualifikationen',
     projects: 'Projekte',
     contributions: 'Mitarbeit',
-    about: 'Über mich'
+    about: 'Über mich',
+    years: 'Jahre',
+    opinions: 'Meinungen'
+    projects: 'Projekte',
+    usage: 'Nutzung'
 };
 export default lang;
