@@ -20,16 +20,13 @@ audience:
 
 opinions:
 - name: ❤️ Judo
-  time: seit zwei Jahren
-  description: Julia ist Judo-Trainerin im örtlichen Sportverein
+  description: seit zwei Jahren Judo-Trainerin im örtlichen Sportverein
 - name: ☠ Auf Dinge warten
-  time: alles, was länger als 10 min dauert
-  description:
+  description: alles, was länger als 10 min dauert, ist sehr anstrengend
 
 projects:
 - name: Lernt Spanisch
-  time: seit drei Monaten
-  description:
+  description: seit drei Monaten
 
 reasonsFor:
 - bekommt die Infos nirgends anders

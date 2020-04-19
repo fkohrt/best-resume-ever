@@ -139,7 +139,7 @@
     <div class="block" v-for="project in person.projects" :key="project.name">
       <div class="block-helper"></div>
       <h3 class="headline">{{project.name}}</h3>
-        <div class="subheadline" v-if="{{project.description}}">{{project.description}}</div>
+        <div class="subheadline" v-if="project.description">{{project.description}}</div>
     </div>
     <div class="section-headline">{{ lang.usage }}</div>
     <div class="block">
