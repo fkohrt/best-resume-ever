@@ -262,6 +262,7 @@ ul {
 .list {
   margin-left: 20px;
   list-style-type: circle;
+  padding-top: 0;
 }
 p {
   margin-top:0;
