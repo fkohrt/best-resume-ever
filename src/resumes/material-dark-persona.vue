@@ -53,6 +53,17 @@
 
     <div class="item">
       <div class="icon">
+        <i class="material-icons">group</i>
+      </div>
+      <div class="text">
+        <ul>
+          <li>{{person.audience.milieu}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="icon">
         <i class="material-icons">smartphone</i>
       </div>
       <div class="text">
@@ -122,24 +133,18 @@
     <div class="block" v-for="opinion in person.opinions" :key="opinion.name">
       <div class="block-helper"></div>
       <h3 class="headline">{{opinion.name}}</h3>
-        <div class="subheadline" v-if="opinion.time">{{opinion.time}}</div>
-        <p class="info" v-if="opinion.description">
-          {{opinion.description}}
-        </p>
+        <div class="subheadline" v-if="opinion.description">{{opinion.description}}</div>
     </div>
     <div class="section-headline">{{ lang.projects }}</div>
     <div class="block" v-for="project in person.projects" :key="project.name">
       <div class="block-helper"></div>
       <h3 class="headline">{{project.name}}</h3>
-        <div class="subheadline" v-if="project.time">{{project.time}}</div>
-        <p class="info" v-if="project.description">
-          {{project.description}}
-        </p>
+        <div class="subheadline" v-if="{{project.description}}">{{project.description}}</div>
     </div>
     <div class="section-headline">{{ lang.usage }}</div>
     <div class="block">
       <div class="block-helper"></div>
-      <div class="headline">Gründe, das Angebot zu nutzen</div>
+      <div class="headline">👍 Gründe, das Angebot zu nutzen</div>
       <p class="info">
           <ul>
             <li class="list" v-for="reason in person.reasonsFor">{{reason}}</li>
@@ -148,7 +153,7 @@
     </div>
     <div class="block">
       <div class="block-helper"></div>
-      <div class="headline">Gründe, das Angebot nicht zu nutzen</div>
+      <div class="headline">👎 Gründe, das Angebot nicht zu nutzen</div>
       <p class="info">
           <ul>
             <li class="list" v-for="reason in person.reasonsAgainst">{{reason}}</li>

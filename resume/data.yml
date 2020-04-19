@@ -12,6 +12,7 @@ audience:
   age: 21
   occupation: Studentin
   formOfHousing: WG
+  milieu: nicht einzuordnen
   phone: High-End (Android)
   computer: Desktop (Windows)
   otherDevices: iPad
@@ -34,7 +35,7 @@ reasonsFor:
 - bekommt die Infos nirgends anders
 
 reasonsAgainst:
-- muss innherhalb von 10 min überzeugt werden
+- muss innerhalb von 10 min überzeugt werden
 
 # skill level goes 0 to 100
 skills:
