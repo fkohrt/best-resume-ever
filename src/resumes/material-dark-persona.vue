@@ -254,8 +254,9 @@ ul {
   padding:0;
   list-style-type:none;
 }
-.list : {
-  list-style-type: disk;
+.list {
+  margin-left: 20px;
+  list-style-type: circle;
 }
 p {
   margin-top:0;
