@@ -10,7 +10,7 @@ const lang = {
     contributions: 'Mitarbeit',
     about: 'Über mich',
     years: 'Jahre',
-    opinions: 'Meinungen'
+    opinions: 'Meinungen',
     projects: 'Projekte',
     usage: 'Nutzung'
 };
