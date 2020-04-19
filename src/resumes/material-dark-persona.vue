@@ -24,7 +24,7 @@
       </div>
       <div class="text">
         <ul>
-          <li>{{person.audience.occupation}}</li>
+          <li>{{person.position}}</li>
         </ul>
       </div>
     </div>
@@ -126,7 +126,7 @@
   <div class="rightCol">
     <div class="title">
       <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
-      <div>{{person.position}}</div>
+      <div>{{person.role}}</div>
     </div>
 
     <div class="section-headline">{{ lang.opinions }}</div>
