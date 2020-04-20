@@ -64,51 +64,18 @@
 
     <div class="item">
       <div class="icon">
-        <i class="material-icons">smartphone</i>
+        <i class="material-icons">devices</i>
       </div>
       <div class="text">
         <ul>
-          <li>{{person.audience.phone}}</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="item">
-      <div class="icon">
-        <i class="material-icons">computer</i>
-      </div>
-      <div class="text">
-        <ul>
-          <li>{{person.audience.computer}}</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="item">
-      <div class="icon">
-        <i class="material-icons">devices_other</i>
-      </div>
-      <div class="text">
-        <ul>
-          <li>{{person.audience.otherDevices}}</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="item">
-      <div class="icon">
-        <i class="material-icons">accessible</i>
-      </div>
-      <div class="text">
-        <ul>
-          <li>{{person.audience.restrictions}}</li>
+          <li>{{person.audience.device}}</li>
         </ul>
       </div>
     </div>
 
     <div class="item last">
       <div class="section-headline">
-        {{ lang.proficiencies }}
+        {{ lang.experience }}
       </div>
       <div class="skill" v-for="skill in person.skills" :key="skill.name">
         <div class="right">
@@ -126,38 +93,39 @@
   <div class="rightCol">
     <div class="title">
       <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
-      <div>{{person.role}}</div>
+      <div>{{person.group}}</div>
     </div>
 
-    <div class="section-headline">{{ lang.opinions }}</div>
-    <div class="block" v-for="opinion in person.opinions" :key="opinion.name">
-      <div class="block-helper"></div>
-      <h3 class="headline">{{opinion.name}}</h3>
-        <div class="subheadline" v-if="opinion.description">{{opinion.description}}</div>
-    </div>
-    <div class="section-headline">{{ lang.projects }}</div>
-    <div class="block" v-for="project in person.projects" :key="project.name">
-      <div class="block-helper"></div>
-      <h3 class="headline">{{project.name}}</h3>
-        <div class="subheadline" v-if="project.description">{{project.description}}</div>
-    </div>
-    <div class="section-headline">{{ lang.usage }}</div>
     <div class="block">
       <div class="block-helper"></div>
-      <div class="headline">{{lang.reasonsToUse}}</div>
+      <div class="headline">{{ lang.personality }}</div>
+      <div class="subheadline">{{lang.personalityDescriptor}}</div>
+      <p class="info">
+        {{person.personality}}
+      </p>
+    </div>
+    <div class="block">
+      <div class="block-helper"></div>
+      <div class="headline">{{ lang.dayInLife }}</div>
+      <div class="subheadline">{{lang.dayInLifeDescriptor}}</div>
+      <p class="info">
+        {{person.dayInLife}}
+      </p>
+    </div>
+    <div class="block">
+      <div class="block-helper"></div>
+      <div class="headline">{{lang.goals}}</div>
       <p class="info">
           <ul>
-            <li class="list" v-for="reason in person.reasonsFor">{{reason}}</li>
+            <li class="list" v-for="goal in person.goals">{{goal}}</li>
           </ul>
       </p>
     </div>
     <div class="block">
       <div class="block-helper"></div>
-      <div class="headline">{{lang.reasonsNotToUse}}</div>
+      <div class="headline">Zitat</div>
       <p class="info">
-          <ul>
-            <li class="list" v-for="reason in person.reasonsAgainst">{{reason}}</li>
-          </ul>
+          {{ person.quote }}
       </p>
     </div>
   </div>

@@ -13,6 +13,14 @@ const lang = {
     opinions: 'Things I (don’t) enjoy',
     usage: 'Usage',
     basics: 'Basics',
-    proficiencies: 'Proficiencies'
+    proficiencies: 'Proficiencies',
+    reasonsToUse: 'Reasons to use the service',
+    reasonsNotToUse: 'Reasons not to use the service',
+    experience: 'Experience',
+    dayInLife: 'A day in the life',
+    dayInLifeDescriptor: 'What composes a typical day in the life?',
+    goals: 'Goals',
+    personality: 'Personality',
+    personalityDescriptor: 'Needs, wants, interests, motivations, attitudes, pain points'
 };
 export default lang;

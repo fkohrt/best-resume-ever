@@ -1,0 +1,38 @@
+/* #*/ export const PERSON = `
+name:
+  first: Julia
+  middle:
+  last:
+group: Amnesty-International-Aktivistin
+position: Studentin
+
+contact:
+  city: Köln
+
+audience:
+  age: 21
+  formOfHousing: lebt in einer 6er-WG
+  milieu: Bürgerliche Mitte
+  device: Smartphone
+
+quote: Zitat
+
+dayInLife: Ein Tag aus dem Leben...
+
+goals:
+- A
+- B
+- C
+
+# skill level goes 0 to 100
+skills:
+- name: Physische Sicherheit
+  level: 30
+- name: Psycho-soziale Sicherheit
+  level: 70
+- name: Digitale Sicherheit
+  level: 10
+
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: de
+`
