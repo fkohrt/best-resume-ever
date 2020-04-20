@@ -137,7 +137,7 @@
 <script>
 import Vue from 'vue';
 import { getVueOptions } from './options';
-const name = 'material-dark-persona';
+const name = 'material-dark-persona-v2';
 
 export default Vue.component(name, getVueOptions(name));
 </script>
