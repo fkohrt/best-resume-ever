@@ -16,7 +16,7 @@ const lang = {
     proficiencies: 'Fähigkeiten',
     reasonsToUse: 'Gründe, das Angebot zu nutzen',
     reasonsNotToUse: 'Gründe, das Angebot nicht zu nutzen',
-    experience: 'Erfahrung',
+    soleExperience: 'Erfahrung',
     dayInLife: 'Ein Tag im Leben',
     dayInLifeDescriptor: 'Was macht einen typischen Tag aus?',
     goals: 'Ziele',
