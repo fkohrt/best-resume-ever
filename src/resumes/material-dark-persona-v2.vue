@@ -98,18 +98,10 @@
 
     <div class="block">
       <div class="block-helper"></div>
-      <div class="headline">{{ lang.personality }}</div>
-      <div class="subheadline">{{lang.personalityDescriptor}}</div>
-      <p class="info">
-        {{person.personality}}
-      </p>
-    </div>
-    <div class="block">
-      <div class="block-helper"></div>
       <div class="headline">{{ lang.dayInLife }}</div>
       <div class="subheadline">{{lang.dayInLifeDescriptor}}</div>
       <p class="info">
-        {{person.dayInLife}}
+        „{{person.dayInLife}}“
       </p>
     </div>
     <div class="block">
@@ -118,6 +110,16 @@
       <p class="info">
           <ul>
             <li class="list" v-for="goal in person.goals">{{goal}}</li>
+          </ul>
+      </p>
+    </div>
+    <div class="block">
+      <div class="block-helper"></div>
+      <div class="headline">{{ lang.painPoints }}</div>
+      <div class="subheadline">{{lang.painPointsDescriptor}}</div>
+      <p class="info">
+          <ul>
+            <li class="list" v-for="painPoint in person.painPoints">{{painPoint}}</li>
           </ul>
       </p>
     </div>

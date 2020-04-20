@@ -20,7 +20,7 @@ const lang = {
     dayInLife: 'Ein Tag im Leben',
     dayInLifeDescriptor: 'Was macht einen typischen Tag aus?',
     goals: 'Ziele',
-    personality: 'Persönlichkeit',
-    personalityDescriptor: 'Bedürfnisse, Wünsche, Interessen, Beweggründe, Einstellungen, Schmerzpunkte'
+    painPoints: 'Schmerzpunkte',
+    painPointsDescriptor: 'z. B. Probleme, Frusterlebnisse, Hürden'
 };
 export default lang;

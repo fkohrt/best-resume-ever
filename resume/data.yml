@@ -15,14 +15,17 @@ audience:
   milieu: Bürgerliche Mitte
   device: Smartphone
 
-quote: Zitat
+dayInLife: Ihr Germanistik-Studium nimmt Julia sehr in Beschlag. Daher gestaltet sie ihren restlichen Tag sehr effizient und hat immer einen Terminkalender dabei. In der lokalen Amnesty-Gruppe hiflt sie bei der Öffentlichkeitsarbeit an Ständen, auch wenn sie dafür meist nur wenige Stunden am Abend Zeit hat. Sonst findet man sie meistens in der Bibliothek.
 
-dayInLife: Ein Tag aus dem Leben...
-
+# This is an objective that a persona wants or needs to fulfill by the service. The service would aid the persona to accomplish their end goal(s) by enabling them to accomplish their tasks via certain features.
 goals:
-- A
-- B
-- C
+- effiziente Nutzung ihres Smartphones
+
+painPoints:
+- verliert nach einen Diebstahl die Daten auf ihrem Smartphone
+- sieht Werbung zu Themen einer sehr privaten Internetrecherche
+
+quote: Oh, da habe ich leider schon einen Termin.
 
 # skill level goes 0 to 100
 skills:

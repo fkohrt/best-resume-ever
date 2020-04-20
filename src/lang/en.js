@@ -20,7 +20,7 @@ const lang = {
     dayInLife: 'A day in the life',
     dayInLifeDescriptor: 'What composes a typical day in the life?',
     goals: 'Goals',
-    personality: 'Personality',
-    personalityDescriptor: 'Needs, wants, interests, motivations, attitudes, pain points'
+    painPoints: 'Pain points',
+    painPointsDescriptor: 'e. g. problems, frustrations or road blocks'
 };
 export default lang;
