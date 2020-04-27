@@ -490,7 +490,7 @@ h4 {
   }
 }
 #myselfpic {
-  background-image:url('../../resume/{{ person.picture}}');
+  background-image:url('../../resume/id.jpg');
   color:black;
 }
 #githubIcon {
