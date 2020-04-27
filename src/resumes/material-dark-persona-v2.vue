@@ -159,7 +159,7 @@
       <div class="subheadline" v-if="project.description">{{project.description}}</div>
     </div>
     <div class="lowerleft">
-      DATUM
+      {{ new Date().toLocaleString() }}
     </div>
   </div>
 
@@ -500,13 +500,9 @@ h4 {
 
 .lowerleft
 {
-    margin-bottom: 1px;
-    margin-left : 1px;
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    color: green;
+    color: white;
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
+    left: 10px;
 }
 </style>
