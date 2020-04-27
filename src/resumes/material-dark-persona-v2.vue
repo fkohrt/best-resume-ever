@@ -61,14 +61,36 @@
         </ul>
       </div>
     </div>
-
+    
     <div class="item">
       <div class="icon">
-        <i class="material-icons">devices</i>
+        <i class="material-icons">smartphone</i>
       </div>
       <div class="text">
         <ul>
-          <li>{{person.audience.device}}</li>
+          <li>{{person.audience.phone}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="icon">
+        <i class="material-icons">computer</i>
+      </div>
+      <div class="text">
+        <ul>
+          <li>{{person.audience.computer}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="icon">
+        <i class="material-icons">devices_other</i>
+      </div>
+      <div class="text">
+        <ul>
+          <li>{{person.audience.otherDevices}}</li>
         </ul>
       </div>
     </div>
@@ -101,7 +123,7 @@
       <div class="headline">{{ lang.dayInLife }}</div>
       <div class="subheadline">{{lang.dayInLifeDescriptor}}</div>
       <p class="info">
-        „{{person.dayInLife}}“
+        {{person.dayInLife}}
       </p>
     </div>
     <div class="block">
@@ -127,8 +149,17 @@
       <div class="block-helper"></div>
       <div class="headline">Zitat</div>
       <p class="info">
-          {{ person.quote }}
+          „{{ person.quote }}“
       </p>
+    </div>
+    <div class="section-headline">{{ lang.projects }}</div>
+    <div class="block" v-for="project in person.projects" :key="project.name">
+      <div class="block-helper"></div>
+      <h3 class="headline">{{project.name}}</h3>
+      <div class="subheadline" v-if="project.description">{{project.description}}</div>
+    </div>
+    <div class="lowerleft">
+      DATUM
     </div>
   </div>
 
@@ -465,5 +496,17 @@ h4 {
 #githubIcon {
   width:25px;
   padding-left:17px;
+}
+
+.lowerleft
+{
+    margin-bottom: 1px;
+    margin-left : 1px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: green;
+    position: fixed;
+    bottom: 0;
 }
 </style>

@@ -13,7 +13,9 @@ audience:
   age: 21
   formOfHousing: lebt in einer 6er-WG
   milieu: Bürgerliche Mitte
-  device: Smartphone
+  phone: High-End (Android)
+  computer: Desktop (Windows)
+  otherDevices: iPad
 
 dayInLife: Ihr Germanistik-Studium nimmt Julia sehr in Beschlag. Daher gestaltet sie ihren restlichen Tag sehr effizient und hat immer einen Terminkalender dabei. In der lokalen Amnesty-Gruppe hiflt sie bei der Öffentlichkeitsarbeit an Ständen, auch wenn sie dafür meist nur wenige Stunden am Abend Zeit hat. Sonst findet man sie meistens in der Bibliothek.
 
@@ -25,7 +27,12 @@ painPoints:
 - verliert nach einen Diebstahl die Daten auf ihrem Smartphone
 - sieht Werbung zu Themen einer sehr privaten Internetrecherche
 
+# Quotation marks are added automatically.
 quote: Oh, da habe ich leider schon einen Termin.
+
+projects:
+- name: Bereitet ein Bündnistreffen vor
+  description: seit drei Monaten
 
 # skill level goes 0 to 100
 skills:
